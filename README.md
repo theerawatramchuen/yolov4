@@ -1,8 +1,8 @@
 # yolov4
 yolov4 installation
 
-## Refererence git darknet
+### Refererence git darknet
 https://github.com/alexeyab/darknet
 
-## Guide to install 
+### Guide of Installing Ubuntu 20.04 LTS and running YOLOv4 and YOLOv5 on it
 https://towardsdatascience.com/installing-ubuntu-20-04-lts-and-running-yolov4-and-yolov5-on-it-2ca0c93e244a
