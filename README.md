@@ -2,7 +2,11 @@
 yolov4 installation
 
 ### Refererence git darknet
-https://github.com/alexeyab/darknet
+https://github.com/alexeyab/darknet <br/>
+note: fixed "darknet.py" on error libdarknet.so cannot find file <br/>
+solution : replace lib = CDLL(cwd + "/libdarknet.so", RTLD_GLOBAL) <br/>
+              with lib = CDLL("[full_path]/libdarknet.so", RTLD_GLOBAL) <br/>
+            sample lib = CDLL("/media/sp/thee/darknet/libdarknet.so", RTLD_GLOBAL) <br/>
 
 ## YOLOv4-darknet installation and usage on your system (Windows & Linux)
 https://techzizou.com/yolo-installation-on-windows-and-linux/#install_linux
